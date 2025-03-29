@@ -90,4 +90,4 @@ Ensure you have the necessary dependencies for TypeScript if you are working wit
 
 ## License
 
-This package is for internal use only and is not publicly distributed. All rights are reserved by Gincat.
+This repository is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for more details.
