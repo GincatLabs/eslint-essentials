@@ -1,0 +1,21 @@
+{
+  "name": "@gincat/eslint-core",
+  "version": "0.0.0",
+  "author": "Braian Rosas <brdevok@outlook.com> (https://github.com/brdevok)",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "npx tsc -p ./tsconfig.build.json"
+  },
+  "dependencies": {
+    "@stylistic/eslint-plugin-js": "^4.2.0",
+    "@stylistic/eslint-plugin-ts": "^4.2.0",
+    "eslint-plugin-import": "^2.31.0",
+    "typescript-eslint": "^8.28.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.22.0"
+  }
+}

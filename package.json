@@ -1,11 +1,18 @@
 {
-  "name": "essentials-eslint",
-  "version": "0.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "@gincat/eslint-essentials",
   "author": "Braian Rosas <brdevok@outlook.com> (https://github.com/brdevok)",
+  "description": "",
   "license": "MIT",
-  "description": ""
+  "type": "module",
+  "scripts": {
+    "lint": "npx eslint --quiet",
+    "lint:fix": "npx eslint --fix"
+  },
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "jiti": "^2.4.2",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.27.0"
+  }
 }
