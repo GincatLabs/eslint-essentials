@@ -1,12 +1,9 @@
 {
 	"compilerOptions": {
-		"target": "ESNext",
 		"module": "NodeNext",
 		"moduleResolution": "nodenext",
 		"baseUrl": ".",
-		"noEmit": true,
 		"strictNullChecks": true
 	},
-	"exclude": ["tests"],
-	"include": ["eslint.config.ts", "packages/**/*.ts"]
+	"include": ["eslint.config.ts", "src/**/*.ts"]
 }

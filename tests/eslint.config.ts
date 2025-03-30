@@ -1,9 +1,8 @@
+import { tsConfigs } from '@gincat/eslint-core';
 import tseslint from 'typescript-eslint';
-import { tsConfigs } from './packages/eslint-core/src/index.js';
 
 const config = tseslint.config(
 	...tsConfigs,
-	{ ignores: ['**/packages/**/dist/*', '**/tests/*'] },
 	{
 		languageOptions: {
 			parserOptions: { project: './tsconfig.json' },
