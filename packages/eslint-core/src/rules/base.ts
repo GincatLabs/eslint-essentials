@@ -61,7 +61,7 @@ export const baseRules: Linter.RulesRecord = {
 	'block-scoped-var': ['error'],
 	'class-methods-use-this': ['error'],
 	'consistent-return': ['error', { treatUndefinedAsUnspecified: true }],
-	'curly': ['error', 'multi'],
+	'curly': ['error', 'multi-or-nest'],
 	'default-case-last': ['error'],
 	'default-param-last': ['error'],
 	'eqeqeq': ['error'],
