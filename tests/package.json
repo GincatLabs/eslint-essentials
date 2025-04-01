@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@gincat/eslint-core": "^0.0.1",
+    "@gincat/eslint-core": "^0.0.2",
     "eslint": "^9.23.0",
     "jiti": "^2.4.2",
     "typescript": "^5.8.2",
