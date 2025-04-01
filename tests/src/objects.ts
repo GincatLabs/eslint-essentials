@@ -1,6 +1,3 @@
-/* eslint-disable max-classes-per-file */
-/* eslint-disable no-unused-vars */
-
 // We should use quotes consistently and only when needed.
 const object = {
 	a: {
