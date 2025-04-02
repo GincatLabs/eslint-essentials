@@ -3,7 +3,7 @@ import { defineConfig } from 'eslint/config';
 import reactPlugin from 'eslint-plugin-react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import globals from 'globals';
-import { reactRules } from 'src/rules/react.js';
+import { reactRules } from '../rules/react.js';
 
 export const reactConfigs = defineConfig(
 	...jsConfigs,
