@@ -1,0 +1,6 @@
+# Exclude local development files
+src/
+
+# Exclude configuration files
+tsconfig.json
+tsconfig.*.json
