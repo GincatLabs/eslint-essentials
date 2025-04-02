@@ -1,6 +1,6 @@
 {
 	"name": "@gincat/eslint-react",
-	"version": "0.0.1-pre.2",
+	"version": "0.0.1-pre.3",
 	"author": "Braian Rosas <brdevok@outlook.com> (https://github.com/brdevok)",
 	"description": "ESLint configuration package for React projects at Gincat Digital, enforcing coding standards and best practices for JavaScript and TypeScript.",
 	"homepage": "https://github.com/GincatLabs/eslint-essentials/tree/main#readme",
