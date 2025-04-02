@@ -12,9 +12,9 @@ This is the core ESLint configuration package used for all general-purpose JavaS
 
 - **Includes:** Standard linting rules for code style, quality, and best practices.
 
-### @gincat/eslint-react
+### [@gincat/eslint-react](./packages/eslint-react/README.md)
 
-This ESLint configuration is specifically tailored for React-based projects within Gincat.
+This ESLint configuration is specifically tailored for React-based projects within Gincat. It extends `@gincat/eslint-core` so you don't have to install it appart.
 
 - **Includes:** Additional linting rules for React code, JSX syntax, React hooks, and functional components.
 
