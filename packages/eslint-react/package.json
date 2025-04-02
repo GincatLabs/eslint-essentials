@@ -1,33 +1,39 @@
 {
-  "name": "@gincat/eslint-react",
-  "version": "0.0.0",
-  "author": "Braian Rosas <brdevok@outlook.com> (https://github.com/brdevok)",
-  "description": "",
-  "homepage": "https://github.com/GincatLabs/eslint-essentials/tree/main#readme",
-  "keywords": [
-    "eslint"
-  ],
-  "license": "MIT",
-  "type": "module",
-  "main": "./dist/index.js",
-  "scripts": {
-    "dev": "npx tsc -p ./tsconfig.build.json --watch ",
-    "build": "npx tsc -p ./tsconfig.build.json",
-    "release:patch": "npm run build && npm version patch && npm publish --access public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GincatLabs/eslint-essentials.git#main"
-  },
-  "bugs": {
-    "url": "https://github.com/GincatLabs/eslint-essentials/issues"
-  },
-  "dependencies": {
-    "@gincat/eslint-core": "^0.0.3",
-    "typescript-eslint": "^8.28.0",
-    "eslint-plugin-react": "^7.37.4"
-  },
-  "peerDependencies": {
-    "eslint": ">=9.22.0"
-  }
+	"name": "@gincat/eslint-react",
+	"version": "0.0.0",
+	"author": "Braian Rosas <brdevok@outlook.com> (https://github.com/brdevok)",
+	"description": "ESLint configuration package for React projects at Gincat Digital, enforcing coding standards and best practices for JavaScript and TypeScript.",
+	"homepage": "https://github.com/GincatLabs/eslint-essentials/tree/main#readme",
+	"keywords": [
+		"eslint",
+		"react",
+		"typescript",
+		"linting",
+		"best-practices",
+		"code-standards"
+	],
+	"license": "MIT",
+	"type": "module",
+	"main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+	"scripts": {
+		"dev": "npx tsc -p ./tsconfig.build.json --watch ",
+		"build": "npx tsc -p ./tsconfig.build.json",
+		"release:patch": "npm run build && npm version patch && npm publish --access public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GincatLabs/eslint-essentials.git#main"
+	},
+	"bugs": {
+		"url": "https://github.com/GincatLabs/eslint-essentials/issues"
+	},
+	"dependencies": {
+		"@gincat/eslint-core": "^0.0.3",
+		"typescript-eslint": "^8.28.0",
+		"eslint-plugin-react": "^7.37.4"
+	},
+	"peerDependencies": {
+		"eslint": ">=9.22.0"
+	}
 }
