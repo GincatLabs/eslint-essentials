@@ -4,6 +4,9 @@
   "description": "",
   "license": "MIT",
   "type": "module",
+	"workspaces": [
+		"packages/*"
+	],
   "scripts": {
     "lint": "npx eslint --quiet",
     "lint:fix": "npx eslint --fix"
