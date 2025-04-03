@@ -1,8 +1,8 @@
-import { tsConfigs } from '@gincat/eslint-core';
+import { tsReactConfigs } from '@gincat/eslint-react';
 import tseslint from 'typescript-eslint';
 
 const config = tseslint.config(
-	...tsConfigs,
+	...tsReactConfigs,
 	{
 		languageOptions: {
 			parserOptions: { project: './tsconfig.json' },
