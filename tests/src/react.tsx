@@ -14,11 +14,9 @@ export const MyComponent: React.FC<MyComponentProps> = (props) => {
 	return (
 		<button
 			onClick={handleClick}
-			type={'button'}
+			type='button'
 		>
-			{props.tag}
-			:
-			{state}
+			{props.tag}:{state}
 		</button>
 	);
 };
