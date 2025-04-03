@@ -14,7 +14,7 @@ export const reactRules: Linter.RulesRecord = {
 	'react/jsx-boolean-value': ['error', 'never'],
 	'react/jsx-closing-bracket-location': ['error'],
 	'react/jsx-closing-tag-location': ['error'],
-	'react/jsx-curly-brace-presence': ['error', { props: 'always', children: 'never' }],
+	'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
 	'react/jsx-curly-newline': ['error', {
 		multiline: 'consistent',
 		singleline: 'consistent',
