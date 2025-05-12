@@ -23,4 +23,10 @@ export const tsConfigs = tseslint.config([
 			...tsRules,
 		},
 	},
+	{
+		files: ['**/types/**/*.ts', '**/*.types.ts', '**/*.d.ts'],
+		rules: {
+			'no-use-before-define': ['off'],
+		},
+	},
 ]);

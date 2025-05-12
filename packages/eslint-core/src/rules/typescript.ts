@@ -11,6 +11,7 @@ export const tsRules: Linter.RulesRecord = {
 				'**/scripts/**/*.{mjs,cjs,js,mts,ts}',
 				'**/mocks/**/*.{mjs,cjs,js,mts,ts}',
 				'**/tests/**/*.{mjs,cjs,js,mts,ts}',
+				'eslint.config.ts',
 			],
 		},
 	],
