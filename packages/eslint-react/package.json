@@ -29,7 +29,7 @@
 		"url": "https://github.com/GincatLabs/eslint-essentials/issues"
 	},
 	"dependencies": {
-		"@gincat/eslint-core": "^0.0.3",
+		"@gincat/eslint-core": "^0.0.4",
 		"typescript-eslint": "^8.28.0",
 		"eslint-plugin-react": "^7.37.4"
 	},
